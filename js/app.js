@@ -4,7 +4,7 @@ requirejs.config({
     baseUrl: 'js/lib',
     paths: {
         app: '../app',
-        react: 'react-0.12.1',
+        react: 'react-0.12.1.min',
         jquery: 'jquery-2.1.1.min',
         JSXTransformer: 'JSXTransformer',
     },
