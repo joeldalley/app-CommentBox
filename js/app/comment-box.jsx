@@ -35,6 +35,7 @@ function(React, CommentList, CommentForm) {
             return {data: []};
         },
         componentDidMount: function() {
+            this.loadCommentsFromServer();
             setInterval(this.loadCommentsFromServer, this.props.pollInterval);
         },
         render: function() {
