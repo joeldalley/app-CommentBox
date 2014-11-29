@@ -1,0 +1,51 @@
+body {
+    font-family:verdana,arial,sans-serf;
+}
+
+h1 {
+    margin:0;
+    font-size:24px;
+}
+
+h2 {
+    margin:0;
+    font-style:italic;
+    font-size:16px;
+}
+
+.commentBox {
+    width:500px;
+    padding:20px;
+    background-color:lightyellow;
+    border-radius:10px;
+    border:1px #999 solid;
+}
+
+.comment {
+    margin:10px;
+    padding:10px;
+    background-color:#fff;
+    border-radius:6px;
+    border:1px #999 solid;
+}
+
+.comment span {
+    padding:6px;
+}
+
+.commentForm {
+    margin:10px;
+    padding:10px;
+    background-color:#eee;
+    border-radius:6px;
+    border:1px #999 solid;
+}
+
+.commentForm div {
+    padding:6px;
+}
+
+.commentForm input {
+    margin:4px;
+    display:block;
+}
