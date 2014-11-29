@@ -12,7 +12,7 @@ and so I've broken the React components into their own files.
 REQUIRED
 ========
 
-The JSX in the app modules is transformed by this RequireJS plugin:
+The JSX in the app modules is transformed by this RequireJS plugin:<br/>
 https://github.com/philix/jsx-requirejs-plugin
 
 COPYRIGHT & LICENSE
