@@ -9,5 +9,11 @@ http://facebook.github.io/react/docs/tutorial.html
 This app is also meant to demonstrate the use of RequireJS,<br/>
 and so I've broken the React components into their own files.
 
+REQUIRED
+========
+
+The JSX in the app modules is transformed by this RequireJS plugin:
+https://github.com/philix/jsx-requirejs-plugin
+
 app-CommentBox is copyright &copy; Joel Dalley 2014.<br/>
 app-CommentBox is distributed under the same license as Perl.
