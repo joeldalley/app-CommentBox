@@ -15,5 +15,8 @@ REQUIRED
 The JSX in the app modules is transformed by this RequireJS plugin:
 https://github.com/philix/jsx-requirejs-plugin
 
+COPYRIGHT & LICENSE
+===================
+
 app-CommentBox is copyright &copy; Joel Dalley 2014.<br/>
 app-CommentBox is distributed under the same license as Perl.
