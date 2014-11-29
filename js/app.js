@@ -4,10 +4,14 @@ requirejs.config({
         app: '../app',
         react: 'react-0.12.1',
         jquery: 'jquery-2.1.1.min',
+        JSXTransformer: 'JSXTransformer',
+    },
+    jsx: {
+        fileExtension: '.jsx'
     }
 });
 
-require(['react', 'app/comment-box'],
+require(['react', 'jsx!app/comment-box', 'jquery'],
 function(React, CommentBox) {
     React.render(
         React.createElement(CommentBox, {

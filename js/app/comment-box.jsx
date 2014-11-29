@@ -1,4 +1,4 @@
-define(['react', 'app/comment-list', 'app/comment-form', 'jquery'], 
+define(['react', 'jsx!app/comment-list', 'jsx!app/comment-form'], 
 function(React, CommentList, CommentForm) {
     return React.createClass({
         loadCommentsFromServer: function() {
@@ -38,16 +38,13 @@ function(React, CommentList, CommentForm) {
             setInterval(this.loadCommentsFromServer, this.props.pollInterval);
         },
         render: function() {
-            return (React.createElement(
-                'div', {className: 'commentBox'},
-                React.createElement('h1', {}, 'Comments'),
-                React.createElement(CommentList, {
-                    data: this.state.data
-                }),
-                React.createElement(CommentForm, {
-                    onCommentSubmit: this.handleCommentSubmit
-                })
-            ));
+            return (
+                <div className="commentBox">
+                  <h1>Comments</h1>
+                  <CommentList data={this.state.data}/>
+                  <CommentForm onCommentSubmit={this.handleCommentSubmit}/>
+                </div>
+            );
         }
     });
 });
