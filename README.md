@@ -20,7 +20,7 @@ https://github.com/philix/jsx-requirejs-plugin
 App Image
 =========
 
-![app-CommentBox](https://cloud.githubusercontent.com/assets/4063581/5237635/ec8706e6-784f-11e4-89df-578ab36f434e.png)
+![app-CommentBox](https://cloud.githubusercontent.com/assets/4063581/5246006/42c58520-7920-11e4-9bee-53a3645d4c4c.png)
 
 Copyright & License
 ===================
